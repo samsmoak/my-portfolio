@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import SideMenu from "./SideMenu.js";
+import SiderMenu from "./SiderMenu";
 
 function Navbar() {
 	const [sidemenu, setSidemenu] = useState(false);
@@ -72,7 +72,7 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
-			<SideMenu sidemenu={sidemenu} />
+			<SiderMenu sidemenu={sidemenu} />
 		</div>
 	);
 }

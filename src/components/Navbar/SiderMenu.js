@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import prof from "../../images/prof.png";
 
-function SideMenu({ sidemenu }) {
+function SiderMenu({ sidemenu }) {
 	return (
 		<div
 			className={`z-50 h-small1 w-52  lg:w-small2 bg-neutral-700 absolute top-14 -right-1 transform duration-500 flex justify-center ${
@@ -65,4 +65,4 @@ function SideMenu({ sidemenu }) {
 	);
 }
 
-export default SideMenu;
+export default SiderMenu;
