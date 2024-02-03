@@ -31,7 +31,7 @@ function Navbar() {
 				</div>
 				<div className=''>
 					<div
-						className='z-50  cursor-pointer relative mt-2'
+						className='z-50  cursor-pointer relative '
 						onClick={sidemenuhandler}
 					>
 						{!sidemenu ? (
@@ -42,7 +42,7 @@ function Navbar() {
 									viewBox='0 0 24 24'
 									stroke-width='1.5'
 									stroke='currentColor'
-									class='w-6 h-6'
+									class='w-8 h-8'
 								>
 									<path
 										stroke-linecap='round'
@@ -55,7 +55,7 @@ function Navbar() {
 							<div className=' rounded-lg mr-3 text-black  font-bold'>
 								<svg
 									xmlns='http://www.w3.org/2000/svg'
-									class='h-6 w-6'
+									class='h-8 w-8'
 									fill='none'
 									viewBox='0 0 24 24'
 									stroke='currentColor'

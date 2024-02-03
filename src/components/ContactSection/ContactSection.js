@@ -3,7 +3,7 @@ import Contactplane from "./Contactplane";
 
 function ContactSection() {
 	return (
-		<div className='w-full flex bg-yellow-300 lg:px-40 py-20 '>
+		<div className='w-full flex bg-yellow-300 lg:px-40 py-20 ' id='sectioncont'>
 			<div className=' w-full grid grid-cols-1 lg:grid-cols-2  px-4 '>
 				<div className='space-y-10'>
 					<div className='space-y-2'>
@@ -18,7 +18,7 @@ function ContactSection() {
 							first catch-up.
 						</div>
 					</div>
-					<div>
+					<div className='space-y-4'>
 						<div>
 							<div className='text-2xl font-bold'>living in</div>
 							<div>

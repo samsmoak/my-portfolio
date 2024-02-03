@@ -5,7 +5,7 @@ import ProjectSectionNavbar from "./ProjectSectionComponent/ProjectSectionNavbar
 function ProjectSection() {
 	const location = useLocation();
 	return (
-		<div className='w-full py-20 '>
+		<div className='w-full py-20 ' id='sectionproj'>
 			<div className='w-full py-10 flex flex-col justify-center items-center space-y-4'>
 				<div className='px-2 bg-yellow-400 font-semibold'>Portfolio</div>
 				<div className='w-full text-center  text-4xl font-semibold capitalize'>

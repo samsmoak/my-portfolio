@@ -2,7 +2,10 @@ import React from "react";
 
 function SummarySection() {
 	return (
-		<div className='w-full flex flex-col justify-center px-10  lg:px-40 py-20 space-y-16'>
+		<div
+			className='w-full flex flex-col justify-center px-10  lg:px-40 py-20 space-y-16'
+			id='sectionsum'
+		>
 			<div className='w-full flex flex-col justify-center items-center space-y-4'>
 				<div className='px-2 bg-yellow-300 font-semibold'>About me</div>
 				<div className='text-4xl font-semibold capitalize text-neutral-600 '>

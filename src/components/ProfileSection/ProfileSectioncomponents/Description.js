@@ -1,10 +1,19 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 function Description() {
+	const scrollToSection = (sectionproj) => {
+		const targetElement = document.getElementById(sectionproj);
+
+		if (targetElement) {
+			targetElement.scrollIntoView({ behavior: "smooth" });
+		}
+	};
 	return (
 		<div className='space-y-4 px-4   text-neutral-700 w-full flex flex-col items-center   lg:items-start '>
 			<div className=' space-y-8 md:w-full flex flex-col justify-center  md:justify-start '>
-				<div className='text-sm md:text-4xl uppercase '>{`Hi, I'm  a  Profrosser`}</div>
+				<div className='text-sm md:text-2xl capitalize '>
+					Hi, I'm <span className='font-semibold '>jeff edmond</span> A
+				</div>
 				<div className='text-xl md:text-4xl font-extrabold uppercase'>
 					<TypeAnimation
 						sequence={[
@@ -29,9 +38,19 @@ function Description() {
 			</div>
 
 			<div className='flex items-center space-x-4'>
-				<div className='px-4 py-2 bg-neutral-700 text-white'>view my works</div>
+				<div
+					className='px-4 py-2 bg-neutral-700 text-white cursor-pointer'
+					onClick={() => scrollToSection(`sectionproj`)}
+				>
+					view my works
+				</div>
 				<div className='flex space-x-1 text-sm'>
-					<div>contact me</div>
+					<div
+						className='cursor-pointer'
+						onClick={() => scrollToSection(`sectioncont`)}
+					>
+						contact me
+					</div>
 					<div>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
