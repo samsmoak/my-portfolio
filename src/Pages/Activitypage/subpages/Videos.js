@@ -111,12 +111,12 @@ function Videos() {
 	return (
 		<div className='h-full overflow-scroll'>
 			<div className='w-full h-full p-4 grid gap-y-4 gap-x-4 md:grid-cols-8 '>
-				<div className='w-full md:col-span-3 lg:col-span-2  py-26 flex flex-col  h-full bg-neutral-700 rounded-sm overflow-scroll'>
+				<div className='h-small2 w-full md:col-span-3 lg:col-span-2  py-26 flex flex-col  md:h-full bg-neutral-700 rounded-sm overflow-scroll'>
 					<div className='px-4 w-full  flex  py-6 text-gray-400  font-bold text-lg'>
 						Lecture Videos
 					</div>
 					<h2 className='px-4 font-bold text-lg text-gray-400 py-2'>Topics</h2>
-					<div className='h-full  w-full flex flex-col items-center space-y-3 lg:py-4 '>
+					<div className=' lg:h-full  w-full flex flex-col items-center space-y-3 lg:py-4 '>
 						{videos.map((video) => (
 							<div
 								className={`cursor-pointer space-x-4 hover:bg-neutral-500 py-3  w-full text-center flex px-4 ${
