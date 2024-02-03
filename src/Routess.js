@@ -5,9 +5,9 @@ import Activitypage from "./Pages/Activitypage/Activitypage";
 import Publications from "./Pages/Activitypage/subpages/Publications";
 import Lectures from "./Pages/Activitypage/subpages/Lectures";
 import Videos from "./Pages/Activitypage/subpages/Videos";
-import ProjectPublication from "./components/ProjectSection/ProjectSectionComponents/ProjectPublication";
-import ProjectVideo from "./components/ProjectSection/ProjectSectionComponents/ProjectVideo";
-import ProjectLectures from "./components/ProjectSection/ProjectSectionComponents/ProjectLectures";
+import ProjectLectures from "./components/ProjectSection/ProjectComponent/projectlectures";
+import ProjectPublication from "./components/ProjectSection/ProjectComponent/ProjectPublication";
+import ProjectVideo from "./components/ProjectSection/ProjectComponent/ProjectVideo";
 
 function Routess() {
 	const routes = useRoutes([

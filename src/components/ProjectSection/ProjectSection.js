@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import ProjectSectionNavbar from "./ProjectSectionComponent/ProjectSectionNavbar";
+import ProjectSectionNavbar from "./ProjectComponent/ProjectSectionNavbar";
 
 function ProjectSection() {
 	const location = useLocation();
