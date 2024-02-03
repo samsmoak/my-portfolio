@@ -2,14 +2,20 @@ import React from "react";
 
 function Contactplane() {
 	return (
-		<div className='w-full'>
+		<div className='w-full flex justify-center'>
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
+				fill='none'
 				viewBox='0 0 24 24'
-				fill='currentColor'
-				class=' w-40 h-40  lg:w-72 lg:h-72 -rotate-45'
+				stroke-width='1.5'
+				stroke='currentColor'
+				class='w-40 h-40  lg:w-72 lg:h-72 '
 			>
-				<path d='M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z' />
+				<path
+					stroke-linecap='round'
+					stroke-linejoin='round'
+					d='M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z'
+				/>
 			</svg>
 		</div>
 	);

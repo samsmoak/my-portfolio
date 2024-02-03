@@ -43,7 +43,7 @@ function SwiperSlider() {
 	]);
 	const [swiperRef, setSwiperRef] = useState(null);
 	return (
-		<div className='lg:px-20 hidden'>
+		<div className='lg:px-20'>
 			<Swiper
 				onSwiper={setSwiperRef}
 				slidesPerView={1}
@@ -62,7 +62,7 @@ function SwiperSlider() {
 			>
 				{datar.map((v, k) => {
 					return (
-						<SwiperSlide className='w-40 h-full md:w-96 md:h-96  py-6 px-6  rounded-3xl '>
+						<SwiperSlide className='w-full h-full md:w-96 md:h-96  py-6 px-6  rounded-3xl '>
 							<div className='bg-white shadow-md h-full  border-t-4 border-yellow-500'>
 								<div className='flex justify-center w-full -translate-y-4'>
 									<div className='h-14 w-14 overflow-hidden rounded-full '>

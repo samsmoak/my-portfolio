@@ -10,17 +10,19 @@ import SwiperSlider from "../../components/SwiperSlide/SwiperSlider";
 
 function Homepage() {
 	return (
-		<div className='w-full mt-12 '>
+		<div className=' w-full mt-12 '>
 			<ProfileSection />
 			<SummarySection />
+
 			<ProjectSection />
+
 			<BarnerSection />
 			<QuestionSection />
-			{/* <div className='w-full flex justify-center'>
+			<div className='w-full flex justify-center'>
 				<div className='w-full lg:w-small1 '>
 					<SwiperSlider />
 				</div>
-			</div> */}
+			</div>
 			<ContactSection />
 			<Footer />
 		</div>

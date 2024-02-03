@@ -1,7 +1,7 @@
-"use client";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import SIdeMenu from "./SIdeMenu";
+import SIdeMenu from "./SideMenu";
+import SideMenu from "./SideMenu";
 
 function Navbar() {
 	const [sidemenu, setSidemenu] = useState(false);
@@ -15,8 +15,6 @@ function Navbar() {
 	};
 	const sidemenuhandler = () => {
 		setSidemenu((sidemenu) => !sidemenu);
-		let sidem = sidemenu;
-		console.log(sidem);
 	};
 	const handlelogout = () => {};
 
@@ -74,7 +72,7 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
-			<SIdeMenu sidemenu={sidemenu} />
+			<SideMenu sidemenu={sidemenu} />
 		</div>
 	);
 }

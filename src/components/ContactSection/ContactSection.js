@@ -8,7 +8,7 @@ function ContactSection() {
 				<div className='space-y-10'>
 					<div className='space-y-2'>
 						<div className='text-2xl'>
-							<span className='text-3xl font-medium capitalize'>
+							<span className='text-3xl font-bold capitalize'>
 								Let's get in touch
 							</span>
 						</div>
@@ -20,15 +20,15 @@ function ContactSection() {
 					</div>
 					<div>
 						<div>
-							<div className='text-2xl'>living in</div>
+							<div className='text-2xl font-bold'>living in</div>
 							<div>30 Shacham street, Los Angeles, USA.</div>
 						</div>
 						<div>
-							<div className='text-2xl'>Call</div>
+							<div className='text-2xl font-bold'>Call</div>
 							<div>(+060) 444 434 444</div>
 						</div>
 						<div>
-							<div className='text-2xl'>Email:</div>
+							<div className='text-2xl font-bold'>Email:</div>
 							<div>jeffedmonds@gmail.com</div>
 						</div>
 					</div>

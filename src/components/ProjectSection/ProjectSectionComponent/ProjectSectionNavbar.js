@@ -4,12 +4,12 @@ import { Link, useLocation } from "react-router-dom";
 function ProjectSectionNavbar() {
 	const location = useLocation();
 	return (
-		<div className='w-full justify-center flex'>
+		<div>
 			<div className='py-3 cursor-pointer gap-4 grid grid-cols-1 md:grid-cols-3  '>
 				<Link
 					to='Publications'
 					className={`px-3 py-2 w-full hover:bg-rose-500 hover:text-white ${
-						location.pathname === "/activity/Publications"
+						location.pathname === "/Publications"
 							? "bg-rose-500"
 							: "bg-rose-300"
 					}`}
@@ -22,11 +22,9 @@ function ProjectSectionNavbar() {
 					</div>
 				</Link>
 				<Link
-					to='videos'
+					to=''
 					className={`px-3 py-2 w-full  hover:bg-rose-500 hover:text-white ${
-						location.pathname === "/activity/videos"
-							? "bg-rose-500"
-							: "bg-rose-300"
+						location.pathname === "/" ? "bg-rose-500" : "bg-rose-300"
 					}`}
 				>
 					<div
@@ -39,9 +37,7 @@ function ProjectSectionNavbar() {
 				<Link
 					to='lectures'
 					className={`px-3 py-2 w-full  hover:bg-rose-500 hover:text-white ${
-						location.pathname === "/activity/lectures"
-							? "bg-rose-500"
-							: "bg-rose-300"
+						location.pathname === "/lectures" ? "bg-rose-500" : "bg-rose-300"
 					}`}
 				>
 					<div

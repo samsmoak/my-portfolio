@@ -2,12 +2,14 @@ import React from "react";
 
 function SummarySection() {
 	return (
-		<div className='w-full flex flex-col justify-center px-10  lg:px-40 py-20 space-y-8'>
+		<div className='w-full flex flex-col justify-center px-10  lg:px-40 py-20 space-y-16'>
 			<div className='w-full flex flex-col justify-center items-center space-y-4'>
-				<div className='px-2 bg-yellow-300'>About me</div>
-				<div className='text-3xl font-semibold capitalize'>know me more</div>
+				<div className='px-2 bg-yellow-300 font-semibold'>About me</div>
+				<div className='text-4xl font-semibold capitalize text-neutral-600 '>
+					know me more
+				</div>
 			</div>
-			<div className='text-neutral-600 w-full space-y-8   md:flex md:justify-between '>
+			<div className='text-neutral-600 w-full    md:flex md:justify-between '>
 				<div className='w-full  flex flex-col items-center md:items-start  space-y-2'>
 					<div className='text-2xl'>
 						{`Hi, I'm `}
@@ -25,7 +27,7 @@ function SummarySection() {
 						in 1995`}
 					</div>
 				</div>
-				<div className='w-full flex flex-col justify-center items-center'>
+				<div className='w-full flex flex-col  items-center'>
 					<div className='text-black text-9xl md:text-8xl font-extrabold'>
 						25
 					</div>
@@ -34,8 +36,8 @@ function SummarySection() {
 					</div>
 				</div>
 			</div>
-			<div className='w-full flex justify-center'>
-				<div className=' grid gap-4 grid-cols-1 sm:grid-cols-2 text-xl font-semibold text-neutral-700 md:grid-cols-4'>
+			<div className='w-full flex '>
+				<div className='w-full capitalize grid gap-4 grid-cols-1 sm:grid-cols-2 text-xl font-semibold text-neutral-700 md:grid-cols-4'>
 					<div>
 						<div>name:</div>
 						<div className='font-medium text-base'>jeff edmonds</div>

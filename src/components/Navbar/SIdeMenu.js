@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import prof from "../../images/prof.png";
 
-function SIdeMenu({ sidemenu }) {
+function SideMenu({ sidemenu }) {
 	return (
 		<div
-			className={`z-50 h-small1  lg:w-small2 bg-neutral-700 absolute top-14 -right-1 transform duration-500 flex justify-center ${
+			className={`z-50 h-small1 w-52  lg:w-small2 bg-neutral-700 absolute top-14 -right-1 transform duration-500 flex justify-center ${
 				sidemenu ? "translate-x-0" : "translate-x-full"
 			}`}
 		>
@@ -14,45 +15,54 @@ function SIdeMenu({ sidemenu }) {
 			>
 				<div className='w-full justify-center flex'>
 					<Link
-						to='setting/profile'
+						to='/'
 						style={{ textDecoration: "none" }}
 						className='text-white '
 					>
-						profilepics
+						<div className='h-16 w-16 overflow-hidden rounded-full '>
+							<img src={prof} alt='' className='w-full h-full object-cover' />
+						</div>
 					</Link>
 				</div>
-				<Link
-					to='/'
-					style={{ textDecoration: "none" }}
-					className='text-white text-base '
-				>
-					Home
-				</Link>
-				<Link
-					to='/activity/publications'
-					style={{ textDecoration: "none" }}
-					className='text-white text-base '
-				>
-					Projects
-				</Link>
-				<Link
-					to='/activity/lectures'
-					style={{ textDecoration: "none" }}
-					className='text-white text-base'
-				>
-					Lectures
-				</Link>
-
-				<Link
-					to='/activity/videos'
-					style={{ textDecoration: "none" }}
-					className='text-white text-base '
-				>
-					Videos
-				</Link>
+				<div>
+					<Link
+						to='/'
+						style={{ textDecoration: "none" }}
+						className='text-white text-base '
+					>
+						Home
+					</Link>
+				</div>
+				<div>
+					<Link
+						to='/activity/publications'
+						style={{ textDecoration: "none" }}
+						className='text-white text-base '
+					>
+						Projects
+					</Link>
+				</div>
+				<div>
+					<Link
+						to='/activity/lectures'
+						style={{ textDecoration: "none" }}
+						className='text-white text-base'
+					>
+						Lectures
+					</Link>
+				</div>
+				<div>
+					<Link
+						to='/activity/videos'
+						style={{ textDecoration: "none" }}
+						className='text-white text-base '
+					>
+						Videos
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
 }
 
-export default SIdeMenu;
+export default SideMenu;
