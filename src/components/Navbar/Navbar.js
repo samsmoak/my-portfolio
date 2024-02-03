@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import SideMenu from "./SideMenu";
+import SideMenu from "./SideMenu.js";
 
 function Navbar() {
 	const [sidemenu, setSidemenu] = useState(false);
