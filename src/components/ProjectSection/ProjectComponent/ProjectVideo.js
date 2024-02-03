@@ -1,13 +1,14 @@
 import React, { Suspense, useState } from "react";
 
 import prof from "../../../images/prof.png";
+import { useNavigate } from "react-router-dom";
 
 function ProjectVideo() {
 	const [componentAVisible, setComponentAVisible] = useState(false);
 	const [linkData, setLinkData] = useState(null);
+	const navigate = useNavigate();
 	const handleClick = (event) => {
-		event.preventDefault();
-		window.location.replace("/activity/videos");
+		navigate("/activity/videos");
 	};
 	const path = require(`../../../images/prof.png`);
 	const casinoData = [

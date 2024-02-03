@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useHistory, useNavigate } from "react-router-dom";
 import prof from "../../../images/prof.png";
 
 function ProjectLectures() {
 	const path = require(`../../../images/prof.png`);
 
-	const handleClick = () => {
-		// Navigate to a different route
-		window.location.replace("/activity/lectures");
+	const navigate = useNavigate();
+	const handleClick = (event) => {
+		navigate("/activity/lectures");
 	};
 	const [casinoData, setCasinoData] = useState([
 		{

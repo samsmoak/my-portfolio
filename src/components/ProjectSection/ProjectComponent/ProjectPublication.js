@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import prof from "../../../images/prof.png";
 
 function ProjectPublication() {
 	const path = require(`../../../images/prof.png`);
-	const handleClick = () => {
-		// Navigate to a different route
-		window.location.replace("/activity/publications");
+	const navigate = useNavigate();
+	const handleClick = (event) => {
+		navigate("/activity/publications");
 	};
 	const casinoData = [
 		{
