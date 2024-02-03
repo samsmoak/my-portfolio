@@ -21,11 +21,14 @@ function ContactSection() {
 					<div>
 						<div>
 							<div className='text-2xl font-bold'>living in</div>
-							<div>30 Shacham street, Los Angeles, USA.</div>
+							<div>
+								4700 Keele Street, Toronto Ontario Canada M3J 1P3 Office:
+								Lassonde (LAS) 3044
+							</div>
 						</div>
 						<div>
 							<div className='text-2xl font-bold'>Call</div>
-							<div>(+060) 444 434 444</div>
+							<div>(416) 736-2100 ext. 33295</div>
 						</div>
 						<div>
 							<div className='text-2xl font-bold'>Email:</div>

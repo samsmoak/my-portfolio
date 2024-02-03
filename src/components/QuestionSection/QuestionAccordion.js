@@ -27,11 +27,11 @@ function QuestionAccordion() {
 				</div>
 				{open1 && (
 					<div className='w-full p-2 text-sm text-neutral-600 '>
-						erry richardson ad squid. Food truck quinoa nesciunt laborum
-						eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-						squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-						keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-						sapiente ea proident. Ad vegan excepteur butcher vice lomo
+						Jeff teaches many courses in Theoretical Computer Science from the
+						second year undergrad to the graduate level. All of these courses
+						have a large set of power point slides, notes, and questions. Two of
+						them have Jeff's voice recorded along with the slides. He also has a
+						book.
 					</div>
 				)}
 			</div>
@@ -54,11 +54,8 @@ function QuestionAccordion() {
 				</div>
 				{open2 && (
 					<div className='w-full p-2 text-sm text-neutral-500 '>
-						erry richardson ad squid. Food truck quinoa nesciunt laborum
-						eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-						squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-						keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-						sapiente ea proident. Ad vegan excepteur butcher vice lomo
+						He joined Department of EECS at Lassonde School of Engineering York
+						University in 1995.
 					</div>
 				)}
 			</div>
@@ -81,11 +78,7 @@ function QuestionAccordion() {
 				</div>
 				{open3 && (
 					<div className='w-full p-2 text-sm text-neutral-500 '>
-						erry richardson ad squid. Food truck quinoa nesciunt laborum
-						eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-						squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-						keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-						sapiente ea proident. Ad vegan excepteur butcher vice lomo
+						I live in toronto canada
 					</div>
 				)}
 			</div>
@@ -108,11 +101,8 @@ function QuestionAccordion() {
 				</div>
 				{open4 && (
 					<div className='w-full p-2 text-sm text-neutral-500 '>
-						erry richardson ad squid. Food truck quinoa nesciunt laborum
-						eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
-						squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-						keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-						sapiente ea proident. Ad vegan excepteur butcher vice lomo
+						He joined Department of EECS at Lassonde School of Engineering York
+						University in 1995.
 					</div>
 				)}
 			</div>

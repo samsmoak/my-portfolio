@@ -116,7 +116,7 @@ function Videos() {
 						Lecture Videos
 					</div>
 					<h2 className='px-4 font-bold text-lg text-gray-400 py-2'>Topics</h2>
-					<div className='h-full w-full flex flex-col items-center space-y-3 py-4 '>
+					<div className='h-full  w-full flex flex-col items-center space-y-3 lg:py-4 '>
 						{videos.map((video) => (
 							<div
 								className={`cursor-pointer space-x-4 hover:bg-neutral-500 py-3  w-full text-center flex px-4 ${

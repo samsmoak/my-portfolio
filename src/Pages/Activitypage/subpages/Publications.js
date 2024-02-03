@@ -72,8 +72,10 @@ function Publications() {
 								// className='mt-8'
 							>
 								<div className=' py-4  w-full bg-neutral-200  rounded-sm px-4'>
-									<div className='font-bold text-2xl py-4'>{p.title}</div>
-									<div className=' h-fit font-medium grid grid-cols-1 md:grid-cols-2  '>
+									<div className='font-bold w-full text-center lg:text-start text-2xl py-4'>
+										{p.title}
+									</div>
+									<div className='space-y-6 lg:space-y-0  h-fit font-medium grid grid-cols-1 lg:grid-cols-2  '>
 										<div className=' w-full flex justify-center'>
 											<div className='sm:w-10/12 f '>
 												<img
