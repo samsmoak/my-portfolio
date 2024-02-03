@@ -5,7 +5,7 @@ import ProjectSection from "../components/ProjectSection/ProjectSection";
 import Routess from "../Routess";
 function MainLayout() {
 	return (
-		<div className='w-full'>
+		<div className='w-full '>
 			<Routess />
 		</div>
 	);

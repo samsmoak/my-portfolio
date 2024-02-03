@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ProjectPublication() {
+function ProjectVideo() {
 	const [casinoData, setCasinoData] = useState([
 		{
 			id: 1,
@@ -62,4 +62,4 @@ function ProjectPublication() {
 	);
 }
 
-export default ProjectPublication;
+export default ProjectVideo;

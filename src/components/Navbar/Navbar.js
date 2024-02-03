@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import MenuButton from "./MenuButton";
+import { Link } from "react-router-dom";
+import SIdeMenu from "./SIdeMenu";
 
 function Navbar() {
+	const [sidemenu, setSidemenu] = useState(false);
 	const [navbar, setnavbar] = useState(false);
 	const navbarhandler = () => {
 		if (window.scrollY >= 100) {
@@ -11,18 +13,68 @@ function Navbar() {
 			setnavbar(false);
 		}
 	};
+	const sidemenuhandler = () => {
+		setSidemenu((sidemenu) => !sidemenu);
+		let sidem = sidemenu;
+		console.log(sidem);
+	};
+	const handlelogout = () => {};
+
 	window.addEventListener("scroll", navbarhandler);
 	return (
 		<div
-			className={`fixed z-10  top-0 w-full py-3 flex justify-between px-40 duration-300  ${
+			className={`fixed z-10 px-4   top-0 w-full py-2  duration-300  ${
 				navbar ? "bg-white" : "bg-yellow-300"
 			}`}
 		>
-			<div className='font-extrabold text-xl'>Jeff</div>
-			<div className='flex'>
-				<div>(062) 446 434 444</div>
-				<MenuButton />
+			<div className='w-full relative lg:px-40 flex justify-between '>
+				<div className='font-extrabold text-xl'>
+					<Link to='/'>Jeff</Link>
+				</div>
+				<div className=''>
+					<div
+						className='z-50  cursor-pointer relative mt-2'
+						onClick={sidemenuhandler}
+					>
+						{!sidemenu ? (
+							<div className=' rounded-lg mr-3  text-black  font-extrabold'>
+								<svg
+									xmlns='http://www.w3.org/2000/svg'
+									fill='none'
+									viewBox='0 0 24 24'
+									stroke-width='1.5'
+									stroke='currentColor'
+									class='w-6 h-6'
+								>
+									<path
+										stroke-linecap='round'
+										stroke-linejoin='round'
+										d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5'
+									/>
+								</svg>
+							</div>
+						) : (
+							<div className=' rounded-lg mr-3 text-black  font-bold'>
+								<svg
+									xmlns='http://www.w3.org/2000/svg'
+									class='h-6 w-6'
+									fill='none'
+									viewBox='0 0 24 24'
+									stroke='currentColor'
+									stroke-width='2'
+								>
+									<path
+										stroke-linecap='round'
+										stroke-linejoin='round'
+										d='M6 18L18 6M6 6l12 12'
+									/>
+								</svg>
+							</div>
+						)}
+					</div>
+				</div>
 			</div>
+			<SIdeMenu sidemenu={sidemenu} />
 		</div>
 	);
 }

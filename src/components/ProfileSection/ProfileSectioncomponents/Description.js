@@ -2,10 +2,10 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 function Description() {
 	return (
-		<div className='space-y-4 text-neutral-700 '>
-			<div className=' space-y-8 w-full flex flex-col  justify-start '>
-				<div className='text-4xl uppercase '>{`Hi, I'm  a  Profrosser`}</div>
-				<div className='text-4xl font-extrabold uppercase'>
+		<div className='space-y-4 px-4   text-neutral-700 w-full flex flex-col items-center   lg:items-start '>
+			<div className=' space-y-8 md:w-full flex flex-col justify-center  md:justify-start '>
+				<div className='text-sm md:text-4xl uppercase '>{`Hi, I'm  a  Profrosser`}</div>
+				<div className='text-xl md:text-4xl font-extrabold uppercase'>
 					<TypeAnimation
 						sequence={[
 							// Same substring at the start will only be typed out once, initially
