@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import SIdeMenu from "./SideMenu";
+
 import SideMenu from "./SideMenu";
 
 function Navbar() {
