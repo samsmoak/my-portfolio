@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSpring, animated } from "@react-spring/web";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function SummarySection() {
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	}, []);
 	return (
 		<div
 			className='w-full flex flex-col justify-center px-10  lg:px-40 py-20 space-y-16'
@@ -13,7 +21,14 @@ function SummarySection() {
 				</div>
 			</div>
 			<div className='text-neutral-600 w-full    md:flex md:justify-between '>
-				<div className='w-full  flex flex-col items-center md:items-start  space-y-2'>
+				<div
+					data-aos='fade-right'
+					data-aos-once='true'
+					// data-aos-offset='200'
+					data-aos-duration='1500'
+					data-aos-easing='ease-out-back'
+					className='w-full flex flex-col items-center md:items-start space-y-2'
+				>
 					<div className='text-2xl'>
 						{`Hi, I'm `}
 						<span className='text-black text-3xl font-semibold capitalize'>
@@ -30,7 +45,14 @@ function SummarySection() {
 						in 1995`}
 					</div>
 				</div>
-				<div className='w-full flex flex-col  items-center'>
+				<div
+					data-aos='fade-up'
+					data-aos-once='true'
+					// data-aos-offset='200'
+					data-aos-duration='1200'
+					data-aos-easing='ease-in-sine'
+					className='w-full flex flex-col  items-center'
+				>
 					<div className='text-black text-9xl md:text-8xl font-extrabold'>
 						25
 					</div>

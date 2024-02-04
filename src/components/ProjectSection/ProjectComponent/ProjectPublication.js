@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import prof from "../../../images/prof.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ProjectPublication() {
 	const path = require(`../../../images/prof.png`);
@@ -8,6 +10,10 @@ function ProjectPublication() {
 	const handleClick = (event) => {
 		navigate("/activity/publications");
 	};
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	}, []);
 	const casinoData = [
 		{
 			id: 1,
@@ -40,7 +46,15 @@ function ProjectPublication() {
 			<div className='  grid gap-4 sm:gap-2 grid-cols-1 sm:grid-cols-2 md:gap-4 xl:px-40 xl:grid-cols-3 '>
 				{casinoData.map((v, i) => {
 					return (
-						<div onClick={() => handleClick()}>
+						<div
+							data-aos='fade-down-right'
+							data-aos-once='true'
+							// data-aos-offset='200'
+							// data-aos-delay='400'
+							data-aos-duration='1500'
+							data-aos-easing='ease-out-back'
+							onClick={() => handleClick()}
+						>
 							<div className=' overflow-hidden w-fit h-fit cursor-pointer'>
 								<div
 									className={`w-full relative md:w-96    hover:scale-110  duration-300 bg-cover  `}

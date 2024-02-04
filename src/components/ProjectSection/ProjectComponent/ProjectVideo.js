@@ -1,7 +1,10 @@
-import React, { Suspense, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 
 import prof from "../../../images/prof.png";
 import { useNavigate } from "react-router-dom";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ProjectVideo() {
 	const [componentAVisible, setComponentAVisible] = useState(false);
@@ -10,6 +13,10 @@ function ProjectVideo() {
 	const handleClick = (event) => {
 		navigate("/activity/videos");
 	};
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	}, []);
 	const path = require(`../../../images/prof.png`);
 	const casinoData = [
 		{
@@ -50,7 +57,15 @@ function ProjectVideo() {
 				<div className='  grid gap-4 sm:gap-2 grid-cols-1 sm:grid-cols-2 md:gap-4 xl:px-40 xl:grid-cols-3 '>
 					{casinoData?.map((v, i) => {
 						return (
-							<div className=' overflow-hidden w-full cursor-pointer   '>
+							<div
+								data-aos='fade-up'
+								data-aos-once='true'
+								// data-aos-offset='200'
+								// data-aos-delay='400'
+								data-aos-duration='1400'
+								data-aos-easing='ease-out-back'
+								className=' overflow-hidden w-full cursor-pointer   '
+							>
 								<div
 									onClick={(e) => handleClick(e)}
 									className={`w-full md:w-96 relative     hover:scale-110  duration-300   `}

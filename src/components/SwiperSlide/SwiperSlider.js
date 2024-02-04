@@ -58,25 +58,33 @@ function SwiperSlider() {
 					delay: 5000,
 					disableOnInteraction: false,
 				}}
-				className={`h-96 bg-white `}
+				className={`h-96  `}
 			>
 				{datar.map((v, k) => {
 					return (
-						<SwiperSlide className='w-full h-full md:w-96 md:h-96  py-6 px-6  rounded-3xl '>
-							<div className='bg-white shadow-md h-full  border-t-4 border-yellow-500'>
+						<SwiperSlide className='w-full h-full md:w-96 md:h-small1  py-6 px-6   '>
+							<div className='bg-neutral-700 space-y-4 rounded-2xl shadow-md h-full  border-t-4 border-yellow-500'>
 								<div className='flex justify-center w-full -translate-y-4'>
 									<div className='h-14 w-14 overflow-hidden rounded-full '>
-										<img src={v.image} alt='' />
+										<img
+											src={v.image}
+											alt=''
+											className='object-cover w-full h-full'
+										/>
 									</div>
 								</div>
-								<div className='flex flex-col items-center'>
-									<h4 className='font-bold text-sm'>{v.name}</h4>
-									<h4 className='font-semibold text-base'>{v.work}</h4>
-									<h4 className='font-bold text-sm'>{v.company} </h4>
+								<div className='flex flex-col items-center '>
+									<h4 className='font-bold text-base text-yellow-400'>
+										{v.name}
+									</h4>
+									<h4 className='font-semibold text-xl text-neutral-200'>
+										{v.work}
+									</h4>
+									<h4 className='font-bold text-base'>{v.company} </h4>
 								</div>
 
-								<div className='w-full px-2'>
-									<p className='text-sm font-normal text-gray-500'>
+								<div className='w-full px-6'>
+									<p className='text-sm font-normal text-gray-200'>
 										{v.testimony}
 									</p>
 								</div>
