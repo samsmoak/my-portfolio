@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../../components/Footer/Footer";
 
 function Publications() {
 	const publica = [
@@ -95,6 +96,7 @@ function Publications() {
 					})}
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }

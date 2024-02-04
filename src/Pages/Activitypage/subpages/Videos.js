@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Tvsvg from "./components.js/Tvsvg";
 import ReactPlayer from "react-player";
+import Footer from "../../../components/Footer/Footer";
 
 function Videos() {
 	const videos = [

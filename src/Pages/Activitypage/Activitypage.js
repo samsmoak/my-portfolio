@@ -1,6 +1,7 @@
 import React from "react";
 import ActivityNavbar from "./Components/ActivityNavbar";
 import { Outlet } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 
 function Activitypage() {
 	return (
