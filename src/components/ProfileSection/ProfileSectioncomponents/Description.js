@@ -10,11 +10,11 @@ function Description() {
 	};
 	return (
 		<div className='space-y-4 px-4   text-neutral-700 w-full flex flex-col items-center   lg:items-start '>
-			<div className=' space-y-8 md:w-full flex flex-col justify-center  md:justify-start '>
+			<div className='  w-full items-center  md:w-full flex flex-col md:items-start  md:justify-start '>
 				<div className='text-sm md:text-2xl capitalize '>
 					Hi, I'm <span className='font-semibold '>jeff edmonds</span> A
 				</div>
-				<div className='text-xl md:text-4xl font-extrabold uppercase'>
+				<div className=' text-2xl  md:h-20 md:text-3xl lg:text-4xl font-extrabold uppercase'>
 					<TypeAnimation
 						sequence={[
 							// Same substring at the start will only be typed out once, initially
@@ -31,13 +31,14 @@ function Description() {
 						speed={50}
 						style={{ fontSize: "", display: "" }}
 						repeat={Infinity}
+						// className='w-10/12'
 					/>
 				</div>
 
-				<div className='w-full'>based in canada</div>
+				<div className=''>based in canada</div>
 			</div>
 
-			<div className='flex items-center space-x-4'>
+			<div className='w-full flex justify-center md:justify-start items-center  space-x-4'>
 				<div
 					className='px-4 py-2 bg-neutral-700 text-white cursor-pointer'
 					onClick={() => scrollToSection(`sectionproj`)}
