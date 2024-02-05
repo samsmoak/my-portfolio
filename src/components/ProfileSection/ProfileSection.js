@@ -12,7 +12,7 @@ function ProfileSection() {
 	};
 	return (
 		<div className='w-full'>
-			<div className='z-40  lg:py-48 lg:px-40 md:px-10 space-x-2  py-2 w-full md:flex   items-center bg-yellow-300 space-y-8 '>
+			<div className='w-full z-40  lg:py-48 lg:px-40 md:px-10   py-2 md:flex   items-center bg-yellow-300 space-y-8 '>
 				<Description />
 				<ImageSection />
 			</div>
