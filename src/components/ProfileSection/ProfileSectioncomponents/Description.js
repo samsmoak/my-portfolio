@@ -22,7 +22,7 @@ function Description() {
 							1000, // wait 1s before replacing "Mice" with "Hamsters"
 							"mathematician",
 							1000,
-							"Lecturer",
+							"Professor",
 							1000,
 							"Mentor",
 							1000,
