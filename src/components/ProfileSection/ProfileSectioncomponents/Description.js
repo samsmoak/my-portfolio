@@ -11,7 +11,7 @@ function Description() {
 	return (
 		<div className='space-y-4   text-neutral-700 w-full flex flex-col items-center   lg:items-start '>
 			<div className='w-full   items-center  md:w-full flex flex-col md:items-start  md:justify-start '>
-				<div className=' text-sm md:text-2xl capitalize '>
+				<div className='whitespace-nowrap text-sm md:text-2xl capitalize '>
 					Hi, I'm <span className='font-semibold '>jeff edmonds</span> A
 				</div>
 				<div className=' text-2xl  md:h-20 md:text-3xl lg:text-4xl font-extrabold uppercase'>
@@ -35,7 +35,7 @@ function Description() {
 					/>
 				</div>
 
-				<div className=''>based in canada</div>
+				<div className='whitespace-nowrap'>based in canada</div>
 			</div>
 
 			<div className='w-full flex justify-center md:justify-start items-center  space-x-4'>
