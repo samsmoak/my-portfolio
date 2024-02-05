@@ -68,12 +68,12 @@ function SummarySection() {
 						<div className='font-medium text-base'>jeff edmonds</div>
 					</div>
 					<div>
-						<div>name:</div>
+						<div>email:</div>
 						<div className='font-medium text-base'>jeffedmonds@gmail.com</div>
 					</div>
 					<div>
 						<div>Date of birth:</div>
-						<div className='font-medium text-base'> 2 february 1960</div>
+						<div className='font-medium text-base'> 10th august 1963</div>
 					</div>
 					<div>
 						<div>from:</div>

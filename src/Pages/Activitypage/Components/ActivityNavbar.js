@@ -5,7 +5,7 @@ function ProjectSectionNavbar() {
 	const location = useLocation();
 	return (
 		<div className='w-full justify-center flex'>
-			<div className='py-3 cursor-pointer gap-4 grid grid-cols-1 md:grid-cols-3  '>
+			<div className='py-3 cursor-pointer gap-4 grid grid-cols-1 sm:grid-cols-3  '>
 				<Link
 					to='Publications'
 					className={`px-3 py-2 w-full hover:bg-rose-500 hover:text-white ${
