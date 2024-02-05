@@ -40,7 +40,7 @@ function Description() {
 
 			<div className='w-full flex justify-center md:justify-start items-center  space-x-4'>
 				<div
-					className='px-4 py-2 bg-neutral-700 text-white cursor-pointer'
+					className='px-4 py-2 whitespace-nowrap bg-neutral-700 text-white cursor-pointer'
 					onClick={() => scrollToSection(`sectionproj`)}
 				>
 					view my works
