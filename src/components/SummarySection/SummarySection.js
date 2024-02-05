@@ -22,7 +22,7 @@ function SummarySection() {
 			</div>
 			<div className='text-neutral-600 w-full    md:flex md:justify-between '>
 				<div
-					data-aos='fade-right'
+					data-aos='fade-up'
 					data-aos-once='true'
 					// data-aos-offset='200'
 					data-aos-duration='1500'
@@ -54,7 +54,7 @@ function SummarySection() {
 					className='w-full flex flex-col  items-center'
 				>
 					<div className='text-black text-9xl md:text-8xl font-extrabold'>
-						25
+						30
 					</div>
 					<div className='text-2xl md:text-3xl font-semibold'>
 						years of experience

@@ -4,6 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			height: {
+				small: "700px",
 				small1: "600px",
 				small2: "500px",
 				small3: "400px",
@@ -13,6 +14,7 @@ module.exports = {
 				bigxxx: "1200px",
 			},
 			width: {
+				small: "700px",
 				small1: "600px",
 				small2: "500px",
 				small3: "400px",

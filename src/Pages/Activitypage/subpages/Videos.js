@@ -139,7 +139,7 @@ function Videos() {
 					</div>
 				</div>
 
-				<div className='w-full md:col-span-5 lg:col-span-6 col-span-full h-small3 lg:h-small1 flex flex-col items-center space-y-4 '>
+				<div className='w-full md:col-span-5 lg:col-span-6 col-span-full h-small3 lg:h-small flex flex-col items-center space-y-4 '>
 					{currentVideo && (
 						<ReactPlayer
 							url={currentVideo.videoUrl}
@@ -148,7 +148,7 @@ function Videos() {
 							height='100%'
 						/>
 					)}
-					<div className='w-full space-y-4'>
+					<div className='w-full  grid col-span-1 md:grid-cols-2'>
 						<div>
 							<div className='text-xl font-semibold text-neutral-400'>
 								if video doesn't play, try the link here:
