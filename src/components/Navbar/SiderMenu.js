@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import prof from "../../images/prof.png";
+import prof from "../../images/prot.jpg";
 
 function SiderMenu({ sidemenu }) {
 	return (

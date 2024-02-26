@@ -32,17 +32,12 @@ function SummarySection() {
 					<div className='text-2xl'>
 						{`Hi, I'm `}
 						<span className='text-black text-3xl font-semibold capitalize'>
-							Jeff Edmonds
+							Zih Samuel
 						</span>
 					</div>
 					<div className='w-5/6 lg:w-small1 text-xl font-medium'>
-						{`I received my Bachelors at Waterloo in 1987 
-                        and his Ph.D. in 1993 at University of Toronto. 
-                        My thesis proved lower bounds on time-space tradeoffs.
-						I did my post-doctorate work at the ICSI in Berkeley on secure data
-						transmission over networks for multi-media applications. I joined
-						Department of EECS at Lassonde School of Engineering York University
-						in 1995`}
+						{`a dedicated software developer with a Bachelor's in Computer Science and Engineering from Lovely Professional University, and three years of experience specializing in full-stack web development. My journey is defined by a commitment to excellence, a passion for emerging technologies, and a collaborative spirit. I thrive on architecting robust solutions that
+						 transcend expectations, fostering innovation within diverse teams. `}
 					</div>
 				</div>
 				<div
@@ -54,7 +49,7 @@ function SummarySection() {
 					className='w-full flex flex-col  items-center'
 				>
 					<div className='text-black text-9xl md:text-8xl font-extrabold'>
-						30
+						3
 					</div>
 					<div className='text-2xl md:text-3xl font-semibold'>
 						years of experience
@@ -65,19 +60,21 @@ function SummarySection() {
 				<div className='w-full capitalize grid gap-4 grid-cols-1 sm:grid-cols-2 text-xl font-semibold text-neutral-700 md:grid-cols-4'>
 					<div>
 						<div>name:</div>
-						<div className='font-medium text-base'>jeff edmonds</div>
+						<div className='font-medium text-base'>zih samuel</div>
 					</div>
 					<div>
 						<div>email:</div>
-						<div className='font-medium text-base'>jeffedmonds@gmail.com</div>
+						<div className='font-medium text-base normal-case'>
+							zebachsmoak@gmail.com
+						</div>
 					</div>
 					<div>
 						<div>Date of birth:</div>
-						<div className='font-medium text-base'> 10th august 1963</div>
+						<div className='font-medium text-base'> 6th april 1998</div>
 					</div>
 					<div>
 						<div>from:</div>
-						<div className='font-medium text-base'>toronto, canada</div>
+						<div className='font-medium text-base'>Ghana, accra</div>
 					</div>
 				</div>
 			</div>

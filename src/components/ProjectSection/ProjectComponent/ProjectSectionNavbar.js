@@ -7,24 +7,22 @@ function ProjectSectionNavbar() {
 		<div>
 			<div className='py-3 cursor-pointer gap-4 grid grid-cols-1 md:grid-cols-3  '>
 				<Link
-					to='Publications'
+					to=''
 					className={`px-3 py-2 w-full hover:bg-rose-500 hover:text-white ${
-						location.pathname === "/Publications"
-							? "bg-rose-500"
-							: "bg-rose-300"
+						location.pathname === "/" ? "bg-rose-500" : "bg-rose-300"
 					}`}
 				>
 					<div
 						style={{ textDecoration: "none" }}
 						className='text-gray-800 text-base font-semibold  '
 					>
-						Publication
+						CV Summary
 					</div>
 				</Link>
 				<Link
-					to=''
+					to='/video'
 					className={`px-3 py-2 w-full  hover:bg-rose-500 hover:text-white ${
-						location.pathname === "/" ? "bg-rose-500" : "bg-rose-300"
+						location.pathname === "/video" ? "bg-rose-500" : "bg-rose-300"
 					}`}
 				>
 					<div

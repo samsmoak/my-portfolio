@@ -36,10 +36,7 @@ function ContactSection() {
 							data-aos-easing='ease-out-back'
 						>
 							<div className='text-2xl font-bold'>living in</div>
-							<div>
-								4700 Keele Street, Toronto Ontario Canada M3J 1P3 Office:
-								Lassonde (LAS) 3044
-							</div>
+							<div>India , Punjab , Jalandhar</div>
 						</div>
 						<div
 							data-aos='fade-up'
@@ -50,7 +47,7 @@ function ContactSection() {
 							data-aos-easing='ease-out-back'
 						>
 							<div className='text-2xl font-bold'>Call</div>
-							<div>(416) 736-2100 ext. 33295</div>
+							<div>(+91) 7658839680</div>
 						</div>
 						<div
 							data-aos='fade-down'
@@ -61,7 +58,7 @@ function ContactSection() {
 							data-aos-easing='ease-out-back'
 						>
 							<div className='text-2xl font-bold'>Email:</div>
-							<div>jeffedmonds@gmail.com</div>
+							<div>zebachsmoak@gmail.com</div>
 						</div>
 					</div>
 				</div>

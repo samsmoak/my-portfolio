@@ -18,27 +18,27 @@ function ProjectPublication() {
 		{
 			id: 1,
 			image:
-				"https://cdn.pixabay.com/photo/2013/07/12/18/55/thinking-153993_1280.png",
-			text: "How to think about algorithms",
+				"https://cdn.pixabay.com/photo/2018/01/14/23/05/ecommerce-3082813_1280.jpg",
+			text: "Participated in Building An Ecommerce Platform",
 		},
 
 		{
 			id: 4,
 			image:
-				"https://cdn.pixabay.com/photo/2013/07/12/14/53/parabola-148973_1280.png",
-			text: `"All” Critical Gradient Descent Solutions Are Optimal & Small Running time`,
+				"https://cdn.pixabay.com/photo/2020/05/25/08/40/food-delivery-5217579_1280.png",
+			text: `Worked On a food delivery Application`,
 		},
 		{
 			id: 5,
 			image:
-				"https://cdn.pixabay.com/photo/2023/01/10/17/09/ellipse-7710183_1280.png",
-			text: `Hardness of function composition for semantic read once branching programs`,
+				"https://cdn.pixabay.com/photo/2012/04/13/15/04/research-32747_1280.png",
+			text: `PARTICIPATED ON A PUBLISHED A PAPER UNDER DR. MUKESH KUMAR`,
 		},
 		{
 			id: 6,
 			image:
-				"https://cdn.pixabay.com/photo/2020/05/14/21/15/vortex-5171430_1280.png",
-			text: `Erasure codes with a hierarchical bundle structure`,
+				"https://cdn.pixabay.com/photo/2013/07/13/13/42/casino-161438_1280.png",
+			text: `Worked on building a betting platform`,
 		},
 	];
 	return (
@@ -47,7 +47,7 @@ function ProjectPublication() {
 				{casinoData.map((v, i) => {
 					return (
 						<div
-							data-aos='fade-down-right'
+							data-aos='fade-up'
 							data-aos-once='true'
 							// data-aos-offset='200'
 							// data-aos-delay='400'

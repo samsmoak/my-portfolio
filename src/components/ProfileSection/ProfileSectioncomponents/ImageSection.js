@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import jeff from "../../../images/jeff-photo.jpg";
+import jeff from "../../../images/profileer.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function ImageSection() {

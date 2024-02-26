@@ -18,7 +18,7 @@ function ProjectSectionNavbar() {
 						style={{ textDecoration: "none" }}
 						className='text-gray-800 text-base font-semibold  '
 					>
-						Publication
+						CV Summary
 					</div>
 				</Link>
 				<Link

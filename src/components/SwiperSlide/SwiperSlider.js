@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 import "swiper/css";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
-import prof from "../../images/prof.png";
+import prof from "../../images/prot.jpg";
 
 function SwiperSlider() {
 	const [midder, setMidder] = useState(1);
@@ -17,8 +17,8 @@ function SwiperSlider() {
 			image: ` ${prof} `,
 			name: "York",
 			work: "University",
-			company: "York",
-			testimony: `great teacher Lumr was the backbone of my startup preparation. It allows you
+			company: "LPU",
+			testimony: `great teacher sam was the backbone of my startup preparation. It allows you
 								to efficiently work through the most common variations of
 								 `,
 		},

@@ -41,7 +41,7 @@ function ProjectVideo() {
 		{
 			id: 6,
 			image:
-				"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/JeffEdmondsbyJake.jpg/440px-JeffEdmondsbyJake.jpg",
+				"https://betterlifedesign.com/wp-content/uploads/2023/06/Alan-Turing-Featured-Image.jpg",
 			text: "Mathematics in machine Learning",
 		},
 		{

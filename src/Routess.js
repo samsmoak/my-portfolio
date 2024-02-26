@@ -17,11 +17,11 @@ function Routess() {
 			children: [
 				{
 					path: "",
-					element: <ProjectVideo />,
+					element: <ProjectPublication />,
 				},
 				{
-					path: "Publications",
-					element: <ProjectPublication />,
+					path: "video",
+					element: <ProjectVideo />,
 				},
 				{
 					path: "lectures",

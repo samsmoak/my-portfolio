@@ -27,7 +27,7 @@ function Navbar() {
 		>
 			<div className='w-full relative lg:px-40 flex justify-between '>
 				<div className='font-extrabold text-xl'>
-					<Link to='/'>Jeff</Link>
+					<Link to='/'>SAM</Link>
 				</div>
 				<div className=''>
 					<div

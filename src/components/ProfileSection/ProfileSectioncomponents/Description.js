@@ -11,8 +11,8 @@ function Description() {
 	return (
 		<div className='space-y-4   text-neutral-700 w-full flex flex-col items-center   lg:items-start '>
 			<div className='w-full   items-center  md:w-full flex flex-col md:items-start  md:justify-start '>
-				<div className='whitespace-nowrap text-sm md:text-2xl capitalize '>
-					Hi, I'm <span className='font-semibold '>jeff edmonds</span> A
+				<div className='whitespace-nowrap text-sm md:text-2xl capitalize mb-4'>
+					Hi, I'm <span className='font-semibold '>Zih Samuel </span> A
 				</div>
 				<div className=' text-2xl  md:h-20 md:text-3xl lg:text-4xl font-extrabold uppercase'>
 					<TypeAnimation
@@ -20,9 +20,9 @@ function Description() {
 							// Same substring at the start will only be typed out once, initially
 							"computer scientist",
 							1000, // wait 1s before replacing "Mice" with "Hamsters"
-							"mathematician",
+							"Software Developer",
 							1000,
-							"Professor",
+							"AI & ML Enthusiast",
 							1000,
 							"Mentor",
 							1000,
@@ -35,7 +35,7 @@ function Description() {
 					/>
 				</div>
 
-				<div className='whitespace-nowrap'>based in canada</div>
+				<div className='whitespace-nowrap'>based in Ghana</div>
 			</div>
 
 			<div className='w-full flex justify-center md:justify-start items-center  space-x-4'>

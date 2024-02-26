@@ -18,7 +18,7 @@ function QuestionAccordion() {
 						setopen4(false);
 					}}
 				>
-					<div className='text-lg font-semibold capitalize '>who is jeff</div>
+					<div className='text-lg font-semibold capitalize '>who is sam</div>
 					{
 						<div>
 							<QuesSVG open={open1} />
@@ -27,11 +27,19 @@ function QuestionAccordion() {
 				</div>
 				{open1 && (
 					<div className='w-full p-2 text-sm text-neutral-600 '>
-						Jeff teaches many courses in Theoretical Computer Science from the
-						second year undergrad to the graduate level. All of these courses
-						have a large set of power point slides, notes, and questions. Two of
-						them have Jeff's voice recorded along with the slides. He also has a
-						book.
+						In essence, Sam is a committed software developer, holding a
+						Bachelor's degree in Computer Science and Engineering from Lovely
+						Professional University, and boasting three years of specialized
+						experience in full-stack web development. His journey is marked by
+						an unwavering dedication to excellence, a profound enthusiasm for
+						emerging technologies, and a collaborative mindset. Sam excels in
+						designing robust solutions that surpass conventional boundaries,
+						fostering a culture of innovation within diverse teams. Driven by an
+						insatiable thirst for knowledge, he remains at the forefront of
+						industry trends, poised to make meaningful contributions to
+						transformative projects. Sam eagerly looks forward to forging
+						connections and collaborating on endeavors that transcend the
+						ordinary, aiming to create something truly extraordinary together.
 					</div>
 				)}
 			</div>
@@ -54,8 +62,8 @@ function QuestionAccordion() {
 				</div>
 				{open2 && (
 					<div className='w-full p-2 text-sm text-neutral-500 '>
-						He joined Department of EECS at Lassonde School of Engineering York
-						University in 1995.
+						sam holds first class in the Bachelor's degree of Computer Science
+						and Engineering from Lovely Professional University
 					</div>
 				)}
 			</div>
@@ -78,7 +86,7 @@ function QuestionAccordion() {
 				</div>
 				{open3 && (
 					<div className='w-full p-2 text-sm text-neutral-500 '>
-						I live in toronto canada
+						I am from Ghana , originally but I am currently situated in india
 					</div>
 				)}
 			</div>
@@ -101,8 +109,8 @@ function QuestionAccordion() {
 				</div>
 				{open4 && (
 					<div className='w-full p-2 text-sm text-neutral-500 '>
-						He joined Department of EECS at Lassonde School of Engineering York
-						University in 1995.
+						Computer Science , Software development , Artificial Learning and
+						Machine Learning
 					</div>
 				)}
 			</div>
