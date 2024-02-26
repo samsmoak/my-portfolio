@@ -15,7 +15,7 @@ function SwiperSlider() {
 	const [datar, setData] = useState([
 		{
 			image: ` ${prof} `,
-			name: "York",
+			name: "LPU",
 			work: "University",
 			company: "LPU",
 			testimony: `great teacher sam was the backbone of my startup preparation. It allows you

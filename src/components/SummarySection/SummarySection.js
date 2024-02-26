@@ -35,7 +35,7 @@ function SummarySection() {
 							Zih Samuel
 						</span>
 					</div>
-					<div className='w-5/6 lg:w-small1 text-xl font-medium'>
+					<div className='md:w-5/6 lg:w-small1 text-xl font-medium'>
 						{`a dedicated software developer with a Bachelor's in Computer Science and Engineering from Lovely Professional University, and three years of experience specializing in full-stack web development. My journey is defined by a commitment to excellence, a passion for emerging technologies, and a collaborative spirit. I thrive on architecting robust solutions that
 						 transcend expectations, fostering innovation within diverse teams. `}
 					</div>

@@ -37,7 +37,7 @@ function ProjectPublication() {
 		{
 			id: 6,
 			image:
-				"https://cdn.pixabay.com/photo/2013/07/13/13/42/casino-161438_1280.png",
+				"https://cdn.pixabay.com/photo/2019/05/04/16/54/gambling-4178457_1280.jpg",
 			text: `Worked on building a betting platform`,
 		},
 	];
