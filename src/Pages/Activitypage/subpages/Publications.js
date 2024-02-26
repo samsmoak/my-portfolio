@@ -2,6 +2,10 @@ import React from "react";
 import Footer from "../../../components/Footer/Footer";
 
 function Publications() {
+	const openPdfInNewTab = () => {
+		const pdfUrl = "/src/PDF/resume.pdf"; // Update with your PDF file path
+		window.open(pdfUrl, "_blank");
+	};
 	const publica = [
 		{
 			id: 1,
@@ -95,8 +99,45 @@ Conducted data analysis and developed algorithms for real-time tracking and pred
 	return (
 		<div>
 			<div className='w-full flex justify-center  font-semibold text-2xl text-neutral-700'>
-				<div className='md:w-3/5 text-gray-400'>Projects</div>
+				<div className='md:w-3/5 text-gray-400 flex items-center space-x-5'>
+					<span>Resume</span>
+					<a
+						href='https://www.canva.com/design/DAFssMqFNqM/fWW6_OCBYGxpzWS_yhxjzQ/edit?utm_content=DAFssMqFNqM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
+						target='_blank'
+						rel='noopener noreferrer'
+						className='flex'
+					>
+						<svg
+							xmlns='http://www.w3.org/2000/svg'
+							viewBox='0 0 24 24'
+							fill='currentColor'
+							class='w-6 h-6 -rotate-90 animate-pulse'
+						>
+							<path
+								fill-rule='evenodd'
+								d='M11.47 13.28a.75.75 0 0 0 1.06 0l7.5-7.5a.75.75 0 0 0-1.06-1.06L12 11.69 5.03 4.72a.75.75 0 0 0-1.06 1.06l7.5 7.5Z'
+								clip-rule='evenodd'
+							/>
+							<path
+								fill-rule='evenodd'
+								d='M11.47 19.28a.75.75 0 0 0 1.06 0l7.5-7.5a.75.75 0 1 0-1.06-1.06L12 17.69l-6.97-6.97a.75.75 0 0 0-1.06 1.06l7.5 7.5Z'
+								clip-rule='evenodd'
+							/>
+						</svg>
+
+						<svg
+							xmlns='http://www.w3.org/2000/svg'
+							viewBox='0 0 24 24'
+							fill='currentColor'
+							class='w-6 h-6 text-red-600'
+						>
+							<path d='M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0 0 16.5 9h-1.875a1.875 1.875 0 0 1-1.875-1.875V5.25A3.75 3.75 0 0 0 9 1.5H5.625Z' />
+							<path d='M12.971 1.816A5.23 5.23 0 0 1 14.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 0 1 3.434 1.279 9.768 9.768 0 0 0-6.963-6.963Z' />
+						</svg>
+					</a>
+				</div>
 			</div>
+
 			<div className='w-full  flex justify-center  '>
 				<div className='px-10 md:px-0 md:w-3/5 space-y-5 py-6'>
 					{publica.map((p, k) => {
